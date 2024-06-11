@@ -12,12 +12,16 @@ fun main() {
 
 // Define Function
 fun makeCoffee(userName : String, sugarCount : UInt) {
-    if (sugarCount == 1u) {
-        println("Coffee with $sugarCount spoon of sugar for $userName.")
-    } else if (sugarCount == 0u) {
-        println("Coffee with no sugar for $userName.")
-    } else {
-        println("Coffee with $sugarCount spoons of sugar for $userName.")
+    when (sugarCount) {
+        1u -> {
+            println("Coffee with $sugarCount spoon of sugar for $userName.")
+        }
+        0u -> {
+            println("Coffee with no sugar for $userName.")
+        }
+        else -> {
+            println("Coffee with $sugarCount spoons of sugar for $userName.")
+        }
     }
 
 }
