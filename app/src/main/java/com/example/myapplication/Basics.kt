@@ -1,6 +1,10 @@
 package com.example.myapplication
 
 fun main() {
+    //val dogDaisy = Dog("Daisy")
+    //dogDaisy.age = 2u
+    //dogDaisy.bark()
+
     println("What is your name?: ")
     val userName = readln()
     println("How many pieces of sugar do you want?: ")

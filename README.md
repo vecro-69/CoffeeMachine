@@ -1,1 +1,1 @@
-A basic application in Kotlin made for styding functions.
+A basic application in Kotlin made for styding functions and classes.
